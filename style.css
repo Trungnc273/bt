@@ -1,0 +1,7 @@
+.infor {
+  background-color: aqua;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0 auto;
+  gap: 1px;
+}

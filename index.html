@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form class="infor" name="myForm" onsubmit="return(validate());">
+      <label for="id">ID:</label><br />
+      <input id="id" name="id" type="text" /><br />
+
+      <label for="name">Tên:</label><br />
+      <input id="name" name="name" type="text" /><br />
+
+      <label for="birthDate">Ngày sinh:</label><br />
+      <input id="birthDate" name="birthDate" type="date" /><br />
+
+      <label for="hometown">Quê quán:</label><br />
+      <input id="hometown" name="hometown" type="text" /><br />
+
+      <label for="">Số điện thoại:</label><br />
+      <input id="phone" name="phone" type="tel" /><br />
+
+      <label for="CCCDNumber">Số CCCD:</label><br />
+      <input id="CCCDNumber" name="CCCDNumber" type="number" /><br />
+
+      <input type="submit" name="submit" value="Gửi" />
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
